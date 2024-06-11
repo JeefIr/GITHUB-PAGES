@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body {
-    color:rgb(255, 251, 0);
+    color:rgb(0, 204, 255);
     background-image: url('fundo.jpg');
     background-position: center;
     background-attachment: fixed;
-    background-color: rgb(21, 190, 212);
+    background-color: rgb(10, 8, 151);
     font-family: 'Homemade Apple' , cursive ;
     text-shadow: 30px 30px 30px rgb(141, 105, 5);
 }
@@ -60,13 +60,14 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-        color:rgb(255, 208, 0);
+        color:rgb(0, 204, 255);
         background-image: url('fundo.jpg');
         background-position: center;
         background-attachment: fixed;
         background-color: rgb(21, 190, 212);
         font-family: 'Homemade Apple' , cursive ;
-        text-shadow: 30px 30px 30px rgb(141, 105, 5);
+        font-weight: bold;
+        text-shadow: 30px 30px 30px rgb(0, 0, 0);
         text-align: center;
     }
 
@@ -74,6 +75,8 @@ footer {
         width: auto; /* Faça a seção ocupar a largura disponível */
         padding: 10px; /* Reduza o padding para economizar espaço */
         font-size: 1em; /* Ajuste o tamanho da fonte para melhor leitura */
+        font-weight: bold;
+        text-shadow: 30px 30px 30px black;
     }
 
     div > img {
