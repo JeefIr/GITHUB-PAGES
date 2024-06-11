@@ -12,7 +12,7 @@ function site() {
     var q1 = document.getElementById('q1');
 
     if (day != 26) {
-        res.innerHTML = "ERROU FEIO! ERROU RUDE!";
+        res.innerHTML = "ERROU FEIO! ERROU RUDE!" ;
         img1.setAttribute('src', 'foto2.jpg');
         dia.style.display = 'none'; 
         botao.style.display = 'none'; 

@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-color: rgb(10, 8, 151);
-    font-family: 'Homemade Apple' , cursive ;
+    font-family: 'Homemade Apple' , cursive , sans-serif;
     text-shadow: 30px 30px 30px rgb(141, 105, 5);
 }
 
@@ -65,7 +65,7 @@ footer {
         background-position: center;
         background-attachment: fixed;
         background-color: rgb(21, 190, 212);
-        font-family: 'Homemade Apple' , cursive ;
+        font-family: 'Homemade Apple' , cursive , sans-serif ;
         font-weight: bold;
         text-shadow: 30px 30px 30px rgb(0, 0, 0);
         text-align: center;
