@@ -14,20 +14,20 @@ function site() {
     if (day != 26) {
         res.innerHTML = "ERROU FEIO! ERROU RUDE!";
         img1.setAttribute('src', 'foto2.jpg');
-        dia.style.display = 'none'; // Esconde a caixa de entrada
-        botao.style.display = 'none'; // Esconde o botão
+        dia.style.display = 'none'; 
+        botao.style.display = 'none'; 
         h1.style.display = 'none';
         q1.style.display = 'none';
     } else {
         img1.setAttribute('src', 'foto.jpg');
         res.innerHTML = '💖  FELIZ DIA DOS NAMORADOS!  💖';
-        message.textContent = 'QUE ESSE SEJA O PRIMEIRO DE MUITOS QUE PASSAREMOS JUNTOS!';
+        message.textContent = 'Que Esse Seja o Primeiro de Muitos que Passaremos Juntos!';
         TeAmo.textContent = '💖   TE AMO MUITÃO    💖';
         TeAmo.style.color = 'red';
-        TeAmo.style.fontSize = '20px';
+        TeAmo.style.fontSize = '30px';
         TeAmo.style.fontWeight = 'bold';
-        dia.style.display = 'none'; // Esconde a caixa de entrada
-        botao.style.display = 'none'; // Esconde o botão
+        dia.style.display = 'none'; 
+        botao.style.display = 'none'; 
         h1.style.display = 'none';
         q1.style.display = 'none';
     }
