@@ -13,6 +13,7 @@ function site() {
 
     if (day != 26) {
         res.innerHTML = "ERROU FEIO! ERROU RUDE!" ;
+        res.style.color = "White";
         img1.setAttribute('src', 'foto2.jpg');
         dia.style.display = 'none'; 
         botao.style.display = 'none'; 
@@ -35,4 +36,5 @@ function site() {
     res.appendChild(img1);
     res.appendChild(message);
     res.appendChild(TeAmo);
+    
 }
