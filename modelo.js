@@ -16,9 +16,9 @@ function site() {
         res.style.color = "White";
         img1.setAttribute('src', 'foto2.jpg');
         dia.style.display = 'none'; 
-        botao.style.display = 'none'; 
-        h1.style.display = 'none';
-        q1.style.display = 'none';
+        botao.style.display = 'non'; 
+        h1.style.display = 'non';
+        q1.style.display = 'non';
     } else {
         img1.setAttribute('src', 'foto.jpg');
         res.innerHTML = '💖  FELIZ DIA DOS NAMORADOS!  💖';
