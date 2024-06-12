@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-color: rgb(0, 0, 0);
-    font-family: 'Homemade Apple' , cursive , sans-serif;
+    font-family: , cursive , sans-serif;
     text-shadow: 30px 30px 30px rgb(141, 105, 5);
 }
 
@@ -72,15 +72,15 @@ footer {
     }
 
     section {
-        width: auto; /* Faça a seção ocupar a largura disponível */
-        padding: 10px; /* Reduza o padding para economizar espaço */
-        font-size: 1em; /* Ajuste o tamanho da fonte para melhor leitura */
+        width: auto; /
+        padding: 10px; 
+        font-size: 1em; 
         font-weight: bold;
         text-shadow: 30px 30px 30px black;
     }
 
     div > img {
-        width: 70%; /* Faça as imagens se redimensionarem para a largura da tela */
+        width: 70%; 
         box-shadow: 5px 5px 15px rgba(141, 105, 5, 0.582) ;
     }
 
