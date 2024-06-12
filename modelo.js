@@ -10,6 +10,7 @@ function site() {
     var botao = document.getElementById('botao');
     var h1 = document.getElementById('h1');
     var q1 = document.getElementById('q1');
+    
 
     if (day != 26) {
         res.innerHTML = "Errou Feio! Errou Rude!" ;
@@ -19,6 +20,12 @@ function site() {
         botao.style.display = 'none'; 
         h1.style.display = 'none';
         q1.style.display = 'none';
+        var retry = document.getElementById('retry');
+        retry.style.display = 'block';
+        retry.onclick= function() {
+            location.reload();
+        }
+        
     } else {
         img1.setAttribute('src', 'foto.jpg');
         res.innerHTML = '💖 FELIZ DIA DOS NAMORADOS! 💖';

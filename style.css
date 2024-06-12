@@ -24,6 +24,7 @@ section {
     width: 480px;
     margin: auto;
     font-size: 1.3em;
+    align-items: center;
 }
 
 input {
@@ -35,9 +36,28 @@ input {
     font-weight: bolder;
 }
 
+
+
 input#botao:hover {
     cursor: pointer;
     background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+button {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(141, 105, 5, 0.582);
+    font-size: .8em;
+    font-weight: bolder;
+}
+
+
+button#retry:hover {
+    cursor: pointer;
+    background-color: black;
     color: white;
 }
 
