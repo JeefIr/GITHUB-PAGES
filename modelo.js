@@ -12,7 +12,7 @@ function site() {
     var q1 = document.getElementById('q1');
 
     if (day != 26) {
-        res.innerHTML = "ERROU FEIO! ERROU RUDE!" ;
+        res.innerHTML = "Errou Feio! Errou Rude!" ;
         res.style.color = "White";
         img1.setAttribute('src', 'foto2.jpg');
         dia.style.display = 'none'; 
@@ -23,7 +23,7 @@ function site() {
         img1.setAttribute('src', 'foto.jpg');
         res.innerHTML = '💖  Feliz Dia dos Namorados!  💖';
         message.textContent = 'Que Esse Seja o Primeiro de Muitos que Passaremos Juntos!';
-        TeAmo.textContent = '💖   TE AMO MUITÃO    💖';
+        TeAmo.textContent = '💖   T E  A M O  M U I T Ã O    💖';
         TeAmo.style.color = 'red';
         TeAmo.style.fontSize = '30px';
         TeAmo.style.fontWeight = 'bold';
