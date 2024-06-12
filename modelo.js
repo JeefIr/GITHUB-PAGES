@@ -21,9 +21,9 @@ function site() {
         q1.style.display = 'none';
     } else {
         img1.setAttribute('src', 'foto.jpg');
-        res.innerHTML = '💖  Feliz Dia dos Namorados!  💖';
+        res.innerHTML = '💖 FELIZ DIA DOS NAMORADOS! 💖';
         message.textContent = 'Que Esse Seja o Primeiro de Muitos que Passaremos Juntos!';
-        TeAmo.textContent = '💖   T E  A M O  M U I T Ã O    💖';
+        TeAmo.textContent = '💖  TE AMO MUITÃO  💖';
         TeAmo.style.color = 'red';
         TeAmo.style.fontSize = '30px';
         TeAmo.style.fontWeight = 'bold';
