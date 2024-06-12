@@ -15,7 +15,7 @@ function site() {
         res.innerHTML = "Errou Feio! Errou Rude!" ;
         res.style.color = "White";
         img1.setAttribute('src', 'foto2.jpg');
-        dia.style.display = 'none'; 
+        dia.style.display = 'non'; 
         botao.style.display = 'non'; 
         h1.style.display = 'non';
         q1.style.display = 'non';
